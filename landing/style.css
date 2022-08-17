@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+img {
+    object-fit: cover;
+    user-select: none;
+    -webkit-object-fit: cover;
+    -moz-object-fit: cover;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+body.body-bg {
+    background-color: #f1f1f1;
+}
+
+.input-group {
+    height: 48px;
+}
+
+
+.btn-account {
+    width: 120px;
+    height: 48px;
+}
+
+
+main.main-bg {
+    background-color: #0340ad;
+    height: 700px;
+}
+
+.process span {
+    font-size: 14px;
+}
+
+
+.h1-size {
+    font-size: 4.5rem;
+}
+
+
+.page-footer {
+    width: 100%;
+    opacity: 0.9;
+    letter-spacing: 1px;
+    user-select: none;
+    position: relative;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .body-image {
+        display: none;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    html {
+        font-size: 10px;
+    }
+    .btn-account{
+        width: 100px;
+    }
+}
+
+
+@media screen and (max-width:340px) {
+    .btn-account{
+        width: 75px;
+    }
+}
+
